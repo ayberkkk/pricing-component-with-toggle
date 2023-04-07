@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(240deg, 78%, 98%);
+  background-image: url(./images/bg-top.svg), url(./images/bg-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 26.5%, 26.5%;
+  background-position: top 12px right -1rem, bottom -57.7rem left -1.9rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+header h1 {
+  color: hsl(233deg, 13%, 49%);
+}
+header nav {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 1.9rem;
+  align-items: center;
+  padding-top: 40px;
+}
+header nav .switchArea {
+  border: none;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  width: 3.8rem;
+  height: 2.3rem;
+  border-radius: 25px;
+  background: linear-gradient(hsl(236deg, 72%, 79%), hsl(237deg, 63%, 64%));
+}
+header nav .switchArea .switchBtn {
+  cursor: pointer;
+  position: relative;
+  width: 1.7rem;
+  height: 1.7rem;
+  margin: 5%;
+  border-radius: 50%;
+  background-color: hsl(240deg, 78%, 98%);
+}
+header nav .anually {
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+header nav .monthly {
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+main .container {
+  display: grid;
+  width: 72%;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  margin-top: 5.8rem;
+}
+main .card-1 {
+  background-color: #fff;
+  gap: 1.3rem;
+}
+main .card-1 h2 {
+  font-size: 1.23rem;
+  font-weight: 700;
+  color: hsl(234deg, 14%, 74%);
+}
+main .card-1 p {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 auto;
+  font-size: 4.6rem;
+  color: hsl(232deg, 13%, 33%);
+}
+main .card-1 ul {
+  margin-top: 10px;
+}
+main .card-1 ul li {
+  padding: 1.06rem;
+  color: hsl(234deg, 14%, 74%);
+}
+main .card-1 ul hr {
+  width: 90%;
+  border-width: 0.5px;
+  margin: 0 auto;
+  border-color: transparent;
+  border-color: hsl(234deg, 14%, 74%);
+  border-style: solid;
+  opacity: 0.5;
+}
+main .card-1 a {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: 5px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.8rem;
+  letter-spacing: 1.5px;
+  word-spacing: 3px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(hsl(236deg, 72%, 79%), hsl(237deg, 63%, 64%));
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+main .card-1 a:hover {
+  background: transparent;
+  border-color: hsl(234deg, 14%, 74%);
+  color: hsl(237deg, 63%, 64%);
+  border-width: 1px;
+}
+main .card-2 {
+  background: linear-gradient(hsl(236deg, 72%, 79%), hsl(237deg, 63%, 64%));
+  margin-top: -1.6rem;
+  margin-bottom: -1.6rem;
+  padding: 3rem 1rem;
+}
+main .card-2 h2 {
+  font-size: 1.23rem;
+  font-weight: 700;
+  color: hsl(234deg, 14%, 74%);
+  color: #fff !important;
+}
+main .card-2 p {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 auto;
+  font-size: 4.6rem;
+  color: hsl(232deg, 13%, 33%);
+  color: #fff !important;
+}
+main .card-2 ul {
+  margin-top: 10px;
+}
+main .card-2 ul li {
+  padding: 1.06rem;
+  color: #fff !important;
+}
+main .card-2 ul hr {
+  width: 90%;
+  border-width: 0.5px;
+  margin: 0 auto;
+  border-color: transparent;
+  border-color: hsl(234deg, 14%, 74%);
+  border-style: solid;
+  opacity: 0.5;
+}
+main .card-2 a {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: 5px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.8rem;
+  letter-spacing: 1.5px;
+  word-spacing: 3px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(hsl(236deg, 72%, 79%), hsl(237deg, 63%, 64%));
+  background-repeat: no-repeat;
+  transition: 0.4s;
+  background: #fff !important;
+  color: hsl(237deg, 63%, 64%);
+}
+main .card-2 a:hover {
+  background: transparent;
+  border-color: hsl(234deg, 14%, 74%);
+  color: hsl(237deg, 63%, 64%);
+  border-width: 1px;
+}
+main .card-2 a:hover {
+  background: transparent !important;
+  border-color: #fff !important;
+  color: #fff !important;
+}
+main .card-3 {
+  background-color: #fff;
+  gap: 1.3rem;
+}
+main .card-3 h2 {
+  font-size: 1.23rem;
+  font-weight: 700;
+  color: hsl(234deg, 14%, 74%);
+}
+main .card-3 p {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 auto;
+  font-size: 4.6rem;
+  color: hsl(232deg, 13%, 33%);
+}
+main .card-3 ul {
+  margin-top: 10px;
+}
+main .card-3 ul li {
+  padding: 1.06rem;
+  color: hsl(234deg, 14%, 74%);
+}
+main .card-3 ul hr {
+  width: 90%;
+  border-width: 0.5px;
+  margin: 0 auto;
+  border-color: transparent;
+  border-color: hsl(234deg, 14%, 74%);
+  border-style: solid;
+  opacity: 0.5;
+}
+main .card-3 a {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: 5px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.8rem;
+  letter-spacing: 1.5px;
+  word-spacing: 3px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(hsl(236deg, 72%, 79%), hsl(237deg, 63%, 64%));
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+main .card-3 a:hover {
+  background: transparent;
+  border-color: hsl(234deg, 14%, 74%);
+  color: hsl(237deg, 63%, 64%);
+  border-width: 1px;
+}
+
+.pricing {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  border-radius: 10px;
+  padding: 2.1rem 0.8rem;
+}
+
+.dollar-sign {
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 90% !important;
+    grid-template-columns: 1fr !important;
+    margin-top: 5.8rem !important;
+    gap: 5rem !important;
+  }
+}/*# sourceMappingURL=main.css.map */
