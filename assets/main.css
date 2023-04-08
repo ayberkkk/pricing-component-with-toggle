@@ -31,8 +31,8 @@ ul {
 }
 
 header {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
 }
 header h1 {
@@ -75,18 +75,20 @@ header nav .monthly {
 }
 
 main {
-  width: 80%;
-  margin: 0 auto;
   text-align: center;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
 }
 main .container {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: grid;
   width: 72%;
+  height: auto;
   grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
-  margin-top: 5.8rem;
+  overflow-y: hidden !important;
+  padding: 60px;
 }
 main .card-1 {
   background-color: #fff;
